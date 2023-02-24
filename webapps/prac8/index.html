@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Sample "Hello, World" Application</title>
+</head>
+
+<body>
+
+  <h1>Form Servlet</h1>
+  <form action="hello" method="get">
+    <table border="0" cellspacing="20">
+      <tr>
+        <td>Name</td>
+        <td><input type="text" name="name"></td>
+      </tr>
+      <tr>
+        <td>Mobile Number</td>
+        <td><input type="number" name="mobile"></td>
+      </tr>
+      <tr>
+        <td> Password </td>
+        <td><input type="password" name="password"></td>
+      </tr>
+      <tr>
+        <td>Select Subjects</td>
+        <td>
+          <input type="checkbox" name="subject" value="Maths"> Maths <br>
+          <input type="checkbox" name="subject" value="Physics"> Physics <br>
+          <input type="checkbox" name="subject" value="Chemistry"> Chemistry <br>
+        </td>
+      </tr>
+      <tr>
+        <td> Gender </td>
+        <td>
+          <input type="radio" name="gender" value="Male"> Male <br>
+          <input type="radio" name="gender" value="Female"> Female <br>
+          <input type="radio" name="gender" value="NA"> Prefer Not to say <br>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Semester
+        </td>
+        <td>
+          <select name="semester">
+            <option value="1">Sem 1</option>
+            <option value="2">Sem 2</option>
+            <option value="3">Sem 3</option>
+            <option value="4">Sem 4</option>
+            <option value="5">Sem 5</option>
+            <option value="6">Sem 6</option>
+            <option value="7">Sem 7</option>
+            <option value="8">Sem 8</option>
+          </select>
+        </td>
+      </tr>
+      <td><button type="submit">Submit</button></td>
+      </tr>
+
+    </table>
+
+  </form>
+</body>
+
+</html>
